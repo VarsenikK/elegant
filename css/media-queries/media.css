@@ -1,0 +1,559 @@
+@media only screen and (max-width: 992px) {
+    /*...HEADER...*/
+    section.header {
+        background-image: url('../../images/bg-mobyle_01.jpg');
+        height: 100vh;
+        background-size: cover;
+
+    }
+
+    header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        padding: 0 15px;
+        background-color: rgba(36, 47, 53, 0.6);
+    }
+
+    label {
+        position: absolute;
+        top: 0;
+        color: rgba(255, 255, 255, 0.0);
+    }
+
+    .burger-line {
+        position: absolute;
+        top: 23px;
+        right: 23px;
+        width: 25px;
+        height: 3px;
+    }
+
+    .second, .third {
+        top: 32px;
+    }
+
+    .fourth {
+        top: 41px;
+    }
+
+    header .wrapper {
+        background-color: rgba(37, 48, 54, 0.6);
+        right: 0;
+        top: 0;
+
+        height: 100%;
+        position: absolute;
+    }
+
+
+    h1 {
+        font-size: 95px;
+
+    }
+
+    h1:after {
+        content: url('../../images/arrow-mobyle_03.png');
+        display: block;
+    }
+
+    /*...ABOUT_US...*/
+    .about_us {
+        padding: 0 25px;
+    }
+
+    .about_us p {
+        font-size: 29px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+
+    .about_us h5 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .about_us h3 {
+        font-size: 90px;
+        margin-bottom: 86px;
+        line-height: 93px;
+
+    }
+
+    .about_us a {
+        font-size: 27px;
+        padding: 43px 90px;
+        letter-spacing: 2px;
+        margin-bottom: 222px;
+    }
+
+    /*...WORK...*/
+    section.work {
+        margin-bottom: 222px;
+    }
+
+    .work h5 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .work h3 {
+        font-size: 90px;
+        margin-bottom: 149px;
+        line-height: 93px;
+    }
+
+    .work img {
+        width: 50%;
+        padding-bottom: 1px;
+    }
+
+    /*....PEOPLE...*/
+    .people .container {
+        margin: 0 25px 222px;
+    }
+
+    .people h5 {
+        font-size: 28px;
+    }
+
+    .people p {
+        font-weight: 300;
+        font-size: 29px;
+        line-height: 47px;
+        margin-bottom: 135px;
+    }
+
+    .people .photo p {
+        font-size: 29px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        padding-bottom: 90px;
+    }
+
+    .people .photo h5 {
+        font-size: 29px;
+        margin-bottom: 40px;
+    }
+
+    .people .photo h4 {
+        font-size: 40px;
+        margin-bottom: 67px;
+    }
+
+    /*...POST...*/
+    .post {
+        margin-bottom: 222px;
+    }
+
+    .post h5 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .post h3 {
+        font-size: 90px;
+        margin-bottom: 104px;
+        line-height: 93px;
+    }
+
+    .post .info h6 {
+        font-size: 28px;
+    }
+
+    .post .info h4 {
+        font-size: 60px;
+        line-height: 62px;
+    }
+
+    .post .info p {
+        font-size: 29px;
+        line-height: 47px;
+    }
+
+    .post a {
+        font-size: 29px;
+        padding: 34px 90px;
+
+    }
+
+    .post .container {
+        margin-bottom: 222px;
+    }
+
+
+    .people .d-flex {
+        display: block;
+        margin: 60px 40px;
+
+    }
+
+    .post .container {
+        margin: 0 auto;
+
+    }
+
+    .post .d-flex {
+        display: block;
+
+    }
+
+    .post .info {
+        background-color: #f9f9f9;
+        padding: 80px 80px 84px 80px;
+    }
+
+
+    /*...CONTACT-US...*/
+    .contact-us .container {
+        margin: 0 auto 155px;
+
+    }
+
+    .contact-us h5 {
+        font-size: 28px;
+        margin-bottom: 38px;
+    }
+
+    .contact-us h3 {
+        font-size: 90px;
+        margin-bottom: 102px;
+    }
+
+    .contact-us h6 {
+        font-size: 28px;
+        margin-bottom: 76px;
+    }
+
+    .contact-us .item {
+        padding: 0 30px;
+    }
+
+    .item.top p {
+        font-size: 30px;
+        margin-bottom: 170px;
+    }
+
+    .item p {
+        font-size: 30px;
+    }
+
+    span.hide {
+        display: none;
+    }
+
+    /*....FOOTER....*/
+    footer {
+        padding: 77px 15px 63px;
+    }
+
+    footer .container {
+        display: block;
+
+    }
+
+    footer p {
+        font-size: 30px;
+        line-height: 57px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .about_us {
+        padding: 0 20px;
+    }
+    .people .container {
+        margin: 0 0 222px;
+    }
+    .people .d-flex {
+        display: block;
+        margin: 0 15px;
+
+    }
+    .post .container {
+        margin: 0 30px;
+    }
+    .post a {
+        font-size: 29px;
+        padding: 18px 48px 17px 47px;
+
+    }
+
+    /*...CONTACT-US...*/
+    .contact-us .container {
+        margin: 0 30px 155px;
+
+    }
+    .contact-us .item {
+        width: 100%;
+    }
+
+    .contact-us .item {
+        padding: 0 30px;
+    }
+
+    .item.top p, .item p {
+        margin-bottom: 170px;
+    }
+
+    /*....FOOTER....*/
+    footer {
+        padding: 77px 15px 63px;
+    }
+
+    footer .container {
+        display: block;
+
+    }
+
+    footer p {
+        font-size: 30px;
+        line-height: 57px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    h1 {
+        font-size: 60px;
+    }
+
+        /*...ABOUT_US...*/
+    .about_us {
+        padding: 0 15px;
+    }
+
+    .about_us p {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 2px;
+    }
+
+    .about_us h5 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .about_us h3 {
+        font-size: 44px;
+        margin-bottom: 46px;
+        line-height: 80px;
+
+    }
+
+    .about_us a {
+        font-size: 14px;
+        padding: 22px 48px;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+    }
+
+    /*...WORK...*/
+    section.work {
+        margin-bottom: 50px;
+    }
+
+    .work h5 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .work h3 {
+        font-size: 44px;
+        margin-bottom: 46px;
+        line-height: 80px;
+    }
+
+    .work img {
+        width: 100%;
+        padding-bottom: 1px;
+    }
+
+    /*....PEOPLE...*/
+    .people {
+        width: 100%;
+        /*padding: 0 15px;*/
+        margin-bottom: 50px;
+    }
+    .people .d-flex {
+        /*margin: 0 15px 50px;*/
+        display: block;
+    }
+
+
+    .people .container {
+
+        margin-bottom: 50px;
+    }
+
+    .people h5 {
+        font-size: 13px;
+
+    }
+
+    .people p {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 2px;
+         margin-bottom: 50px;
+    }
+
+    .people .photo p {
+        font-size: 13px;
+        line-height: 15px;
+
+    }
+
+    .people .photo h5 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .people .photo h4 {
+        font-size: 40px;
+        margin-bottom: 67px;
+    }
+
+    /*...POST...*/
+    .post {
+        margin-bottom: 222px;
+    }
+    .post .info{
+        padding: 30px 20px 34px 20px;
+    }
+    .post h5 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .post h3 {
+        font-size: 44px;
+        margin-bottom: 46px;
+        line-height: 80px;
+    }
+
+    .post .info h6 {
+        font-size: 28px;
+    }
+
+    .post .info h4 {
+        font-size: 60px;
+        line-height: 62px;
+    }
+
+    .post .info p {
+        font-size: 29px;
+        line-height: 47px;
+    }
+
+    .post a {
+        font-size: 29px;
+        padding: 34px 90px;
+
+    }
+
+    .post .container {
+        margin-bottom: 50px;
+    }
+
+
+
+    .post .container {
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .post .d-flex h6{
+        font-size: 13px;
+        margin-bottom: 21px;
+
+    }
+    .post .d-flex h4{
+        font-size: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 33px;
+
+    }
+    .post .d-flex p{
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        margin-bottom: 58px;
+    }
+    .post a{
+
+        font-size: 14px;
+
+        padding: 18px 48px 17px 47px;
+
+    }
+
+    /*...CONTACT-US...*/
+    .contact-us .container {
+        margin: 0 15px 50px;
+
+    }
+
+    .contact-us h5 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .contact-us h3 {
+        font-size: 44px;
+        margin-bottom: 46px;
+        line-height: 80px;
+    }
+
+    .contact-us h6 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .contact-us .item {
+        padding: 0 15px;
+    }
+
+    .item.top p {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .item p {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    span.hide {
+        display: none;
+    }
+
+    /*....FOOTER....*/
+    footer {
+        padding: 20px 15px;
+    }
+
+    footer p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .about_us .container{
+        margin: 0 auto 50px;
+         }
+    .post {
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
