@@ -6,8 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elegant</title>
+    <script src="https://kit.fontawesome.com/83d1986101.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries/media.css">
 
@@ -22,7 +25,7 @@
 
             <div class="wrapper">
                 <input type="checkbox" id="check-menu">
-                <label for="check-menu">MENU</label>
+                <label class="burger" for="check-menu">MENU</label>
                 <div class="burger-line first"></div>
                 <div class="burger-line second"></div>
                 <div class="burger-line third"></div>
@@ -49,7 +52,20 @@
             sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
             claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo
             typi, qui nunc, fiant sollemnes in futurum.</p>
-        <a href="#" target="_blank" title="">Read More About Us</a>
+        <!--<a href="#" target="_blank" title="">Read More About Us</a>-->
+
+        <div id="dialog" title="FORGOT YOUR PASSWORD?">
+            <form action="post" name="dialog">
+                <div class="dialog-form d-flex">
+                <label for="email">ENTER YOUR EMAIL</label>
+                    <input id="email" type="email" name="email">
+                    <button type="submit">RESET PASSWORD</button>
+                    <p>OR</p>
+                    <a href="https://www.facebook.com/" target="_blank" title="facebook">Log In Using Facebook</a>
+                </div>
+            </form>
+        </div>
+        <button id="opener">FORGOT YOUR PASSWORD?</button>
 
     </div>
 </section>
@@ -79,6 +95,30 @@
             demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui
             sequitur mutationem consuetudium lectorum.</p>
         <div class="owl-carousel">
+            <div class="photo">
+                <img src="images/photo1_03.jpg" alt="img">
+                <h5>ceo</h5>
+                <h4>Tobias Schneider</h4>
+                <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo2_03.jpg" alt="img">
+                <h5>Designer</h5>
+                <h4>Jack Knife</h4>
+                <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
+            </div>
+
+            <div class="photo">
+                <img src="images/photo3_03.jpg" alt="img">
+                <h5>Developer</h5>
+                <h4>Ricki Hall</h4>
+                <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
+            </div>
+
             <div class="photo">
                 <img src="images/photo1_03.jpg" alt="img">
                 <h5>ceo</h5>
@@ -185,5 +225,6 @@
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
 </html>
