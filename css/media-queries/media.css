@@ -32,6 +32,9 @@
         justify-content: center;
         padding: 40px 15px 15px 15px;
     }
+    .project-work span{
+        font-weight: 600;
+    }
     .works-left img{
         display: block;
         width: 100%;
