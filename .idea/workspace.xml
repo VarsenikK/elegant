@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fa5c06d-19ef-4674-9a93-c446271ca1f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-queries/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1607005521534" duration="2259000" />
       <workItem from="1607172479620" duration="12619000" />
       <workItem from="1607241664066" duration="592000" />
-      <workItem from="1607242494408" duration="19911000" />
+      <workItem from="1607242494408" duration="23521000" />
     </task>
     <task id="LOCAL-00001" summary="add file media.css">
       <created>1606667973399</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607275522484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modified project.html">
+      <created>1607275781821</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607275781821</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,24 +176,25 @@
     <MESSAGE value="add media queries to page about" />
     <MESSAGE value="add page project.html" />
     <MESSAGE value="mobile version project.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile version project.html" />
+    <MESSAGE value="modified project.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified project.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="205" key="CommitChangelistDialog2" timestamp="1607275519250">
+    <state x="548" y="205" key="CommitChangelistDialog2" timestamp="1607275778919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606846456454" />
-    <state x="548" y="205" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607275519250" />
+    <state x="548" y="205" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607275778919" />
     <state x="535" y="105" key="FileChooserDialogImpl" timestamp="1607016808832">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="535" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607016808832" />
     <state x="752" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606853549993" />
-    <state x="515" y="331" key="Vcs.Push.Dialog.v2" timestamp="1607275524982">
+    <state x="515" y="331" key="Vcs.Push.Dialog.v2" timestamp="1607275784486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="366" y="171" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606846465860" />
-    <state x="515" y="331" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607275524982" />
+    <state x="515" y="331" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607275784486" />
     <state x="697" y="467" key="com.intellij.ide.util.TipDialog" timestamp="1607242546720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

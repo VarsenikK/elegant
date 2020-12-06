@@ -786,3 +786,77 @@ section.project-work .d-flex{
     text-align: center;
 
 }
+
+section.contact-header {
+    background-image: url('../images/contact-header_01.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 130px;
+}
+.contact-page {
+    max-width: 768px;
+    margin: 0 auto 77px;
+}
+.contact-page h3{
+    text-align: center;
+}
+.contact-page h5{
+    text-align: center;
+}
+
+.contact-page .wrapper{
+    width: 300px;
+    height: 300px;
+    background-color: #d3b000;
+    padding: 33px 0 0 32px;
+    margin-right: 6px;
+
+}
+.contact-page .wrapper p{
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+}
+.description{
+    background-color: #f9f9f9;
+    padding: 47px;
+    height: 300px;
+}
+.description p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.contact-page .line{
+    background-color: #fff;
+    width: 31px;
+    height: 3px;
+    margin-bottom: 47px;
+}
+.contact-page .wrapper_{
+    width: 300px;
+    height: 300px;
+    background-color: #212121;
+    padding: 33px 0 0 32px;
+}
+.contact-page .wrapper_ p{
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+a.contact-page-link {
+    text-decoration: none;
+    color: #021725;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    max-width: 238px;
+    border: 1px solid #000;
+    padding: 18px 48px 17px 47px;
+    display: block;
+    margin: 0 auto 87px;
+    text-align: center;
+}
