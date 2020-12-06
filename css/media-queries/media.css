@@ -5,16 +5,52 @@
         height: 100vh;
         background-size: cover;
     }
-    .header-about{
+
+    .header-about {
         background-image: url('../../images/about-header-mobile_01.jpg');
         height: 100vh;
         background-size: cover;
     }
+
+    .header-project {
+        background-image: url('../../images/project-header-mobile_01.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+
     .about-page {
         max-width: 670px;
         margin: 0 30px 160px;
     }
-
+    .project-work .works{
+        width: 100%;
+        margin: 15px 3px;
+    }
+    .project-work.d-flex{
+        margin: 0 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px 15px 15px 15px;
+    }
+    .works-left img{
+        display: block;
+        width: 100%;
+    }
+    .works{
+        width: 100%;
+    }
+    .works img{
+        display: block;
+        width: 100%;
+    }
+    .soc-links.d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 104px 0 74px;
+    }
+    .soc-links a{
+        margin: 15px 15px;
+    }
     header {
         position: absolute;
         width: 100%;
@@ -91,30 +127,38 @@
         letter-spacing: 2px;
         margin-bottom: 222px;
     }
-    .about-services.d-flex{
+
+    .about-services.d-flex {
         flex-wrap: wrap;
     }
-    .about-page{
+
+    .about-page {
         max-width: 680px;
         margin: 0 15px 160px;
     }
-    .about-services h3{
+
+    .about-services h3 {
         margin-bottom: 47px;
     }
-    .about-services img{
+
+    .about-services img {
         width: 100%;
     }
-    .about-services .info{
+
+    .about-services .info {
         width: 100%;
     }
-    .about-services .info .d-flex{
+
+    .about-services .info .d-flex {
         flex-wrap: wrap;
     }
-    .about-services .info p{
+
+    .about-services .info p {
         width: 100%;
         margin-bottom: 47px;
     }
-    .about-services .info ul{
+
+    .about-services .info ul {
         width: 100%;
         padding-left: 15px;
         margin-bottom: 94px;
@@ -274,17 +318,16 @@
     }
 
     /*....FOOTER....*/
-   /* footer {
-        padding: 77px 15px 63px;
-    }*/
-
+    /* footer {
+         padding: 77px 15px 63px;
+     }*/
     footer .container {
         display: block;
     }
 
     footer p {
         font-size: 18px;
-       /* line-height: 57px;*/
+        /* line-height: 57px;*/
     }
 }
 
@@ -293,17 +336,21 @@
     .about_us {
         padding: 0 20px;
     }
+
     .people .container {
         margin: 0 0 222px;
     }
+
     .people .d-flex {
         display: block;
         margin: 0 15px;
 
     }
+
     .post .container {
         margin: 0 30px;
     }
+
     .post a {
         font-size: 29px;
         padding: 18px 48px 17px 47px;
@@ -313,6 +360,7 @@
     .contact-us .container {
         margin: 0 30px 155px;
     }
+
     .contact-us .item {
         width: 100%;
     }
@@ -345,7 +393,7 @@
         font-size: 60px;
     }
 
-        /*...ABOUT_US...*/
+    /*...ABOUT_US...*/
     .about_us {
         padding: 0 15px;
     }
@@ -401,6 +449,7 @@
         /*padding: 0 15px;*/
         margin-bottom: 50px;
     }
+
     .people .d-flex {
         /*margin: 0 15px 50px;*/
         display: block;
@@ -418,7 +467,7 @@
         font-size: 18px;
         line-height: 32px;
         letter-spacing: 2px;
-         margin-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .people .photo p {
@@ -440,9 +489,11 @@
     .post {
         margin-bottom: 222px;
     }
-    .post .info{
+
+    .post .info {
         padding: 30px 20px 34px 20px;
     }
+
     .post h5 {
         font-size: 13px;
         margin-bottom: 20px;
@@ -483,24 +534,27 @@
         padding: 0 15px;
     }
 
-    .post .d-flex h6{
+    .post .d-flex h6 {
         font-size: 13px;
         margin-bottom: 21px;
 
     }
-    .post .d-flex h4{
+
+    .post .d-flex h4 {
         font-size: 30px;
         letter-spacing: 1px;
         margin-bottom: 33px;
 
     }
-    .post .d-flex p{
+
+    .post .d-flex p {
         font-size: 16px;
         line-height: 25px;
         letter-spacing: 1px;
         margin-bottom: 58px;
     }
-    .post a{
+
+    .post a {
 
         font-size: 14px;
 
@@ -560,9 +614,10 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .about_us .container{
+    .about_us .container {
         margin: 0 auto 50px;
-         }
+    }
+
     .post {
         margin-bottom: 70px;
     }

@@ -732,7 +732,7 @@ section.header-project {
 section.project-work{
     max-width: 1150px;
     background-color: #f9f9f9;
-    margin: 0 auto 104px;
+    margin: 0 auto;
     padding: 65px 70px 65px 65px;
 }
 section.project-work .d-flex{
@@ -764,9 +764,11 @@ section.project-work .d-flex{
 .project-work .works-left img{
     margin-bottom: 19px;
 }
+.soc-links.d-flex {
+    margin: 104px auto 74px;
+}
 .soc-links{
     max-width: 1150px;
-    margin: auto;
     justify-content: space-around;
 }
 .soc-links a{
@@ -779,5 +781,5 @@ section.project-work .d-flex{
     padding: 22px 0;
     width: 250px;
     text-align: center;
-    margin-bottom: 74px;
+
 }
