@@ -49,53 +49,62 @@
     font-style: normal;
     font-display: swap;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-section.header{
+
+section.header {
     background-image: url('../images/header_01.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     margin-bottom: 82px;
 }
-section.header-about{
+
+section.header-about {
     background-image: url('../images/about-header_01.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     margin-bottom: 165px;
 }
-.about-page{
+
+.about-page {
     max-width: 765px;
     margin: 0 auto 160px;
 }
-.about-page p{
+
+.about-page p {
     color: #021725;
     font-size: 18px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-align: center;
 }
-header{
+
+header {
     position: absolute;
     width: 100%;
     top: 0;
     padding: 0 15px;
 }
-header .container{
+
+header .container {
     max-width: 1186px;
     margin: auto;
     justify-content: space-between;
     color: #fff;
     padding-top: 16px;
 }
-h1{
+
+h1 {
     font-size: 80px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -103,7 +112,8 @@ h1{
     margin: auto;
     color: #fff;
 }
-h1 span{
+
+h1 span {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -112,7 +122,7 @@ h1 span{
 
 /*....BURGER MENU...*/
 
-.wrapper{
+.wrapper {
     /*margin: 100px auto;*/
     width: 70px;
     /*background-color: transparent;*/
@@ -126,11 +136,11 @@ h1 span{
 
 }
 
-#check-menu{
+#check-menu {
     display: none;
 }
 
-label.burger{
+label.burger {
     display: block;
     position: absolute;
     top: 0;
@@ -142,7 +152,8 @@ label.burger{
     z-index: 2;
     line-height: 40px;
 }
-.burger-line{
+
+.burger-line {
     position: absolute;
     top: 15px;
     right: 10px;
@@ -151,14 +162,16 @@ label.burger{
     background-color: #fff;
     transition: 0.3s all;
 }
-.second, .third{
+
+.second, .third {
     top: 20px;
 }
-.fourth{
+
+.fourth {
     top: 24px;
 }
 
-.main-menu{
+.main-menu {
     display: block;
     position: absolute;
     width: 100%;
@@ -170,41 +183,49 @@ label.burger{
     overflow: hidden;
     transition: 0.3s all;
 }
-.main-menu ul{
+
+.main-menu ul {
     list-style: none;
 }
-.main-menu ul li a{
+
+.main-menu ul li a {
     display: block;
     width: 100%;
     padding: 10px;
     color: #fff;
     text-decoration: none;
-    border-top: 1px solid rgba(255,255,255 0.3);
+    border-top: 1px solid rgba(255, 255, 255 0.3);
     background-color: rgba(149, 165, 180, 0.6);
 
 }
-.main-menu ul li a:hover{
-    background-color: rgba(0,0,0,.9);
+
+.main-menu ul li a:hover {
+    background-color: rgba(0, 0, 0, .9);
 }
-#check-menu:checked ~ .main-menu{
+
+#check-menu:checked ~ .main-menu {
     max-height: 500px;
     font-size: 16px;
 }
-#check-menu:checked ~ .first{
+
+#check-menu:checked ~ .first {
     display: none;
 }
-#check-menu:checked ~ .second{
+
+#check-menu:checked ~ .second {
     transform: rotate(45deg);
 }
-#check-menu:checked ~ .third{
+
+#check-menu:checked ~ .third {
     transform: rotate(-45deg);
 }
-#check-menu:checked ~ .fourth{
+
+#check-menu:checked ~ .fourth {
     display: none;
 }
 
 
-h5{
+h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 13px;
@@ -212,14 +233,16 @@ h5{
     text-transform: uppercase;
 
 }
-h3{
+
+h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 44px;
     color: #021725;
 
 }
-section p{
+
+section p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -231,23 +254,40 @@ section p{
 }
 
 /*....ABOUT_US....*/
-section .about_us{
+section .about_us {
     background-color: #fff;
+}
+.header-about{
+    position: relative;
+}
+.header-about .arrow{
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    bottom: 55px;
+    position: absolute;
+}
+.header-about .arrow img{
+    display: block;
+    width: 100%;
 
 }
-.about_us .container{
+.about_us .container {
     max-width: 760px;
     margin: 0 auto 162px;
     /*padding-top: 81px;*/
     text-align: center;
 }
-.about_us h5{
+
+.about_us h5 {
     margin-bottom: 24px;
 }
-.about_us p{
+
+.about_us p {
     margin-bottom: 47px;
 }
-.about_us button{
+
+.about_us button {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -258,53 +298,64 @@ section .about_us{
     padding: 22px 48px;
     letter-spacing: 2px;
 }
+
 .ui-dialog {
-    width: 755px!important;
-    height: 603px!important;
+    width: 755px !important;
+    height: 603px !important;
     margin: auto;
     border-radius: 0 0 10px 10px;
 
 }
-.ui-widget.ui-widget-content{
+
+.ui-widget.ui-widget-content {
     padding: 0;
 }
-.ui-dialog .ui-dialog-titlebar{
+
+.ui-dialog .ui-dialog-titlebar {
     padding: 0;
 }
-.ui-widget-header{
+
+.ui-widget-header {
     background-color: #000;
     width: 100%;
     border: 1px solid #000;
     border-radius: 0;
 
 }
-.ui-dialog .ui-dialog-title{
+
+.ui-dialog .ui-dialog-title {
     position: relative;
     color: #fff;
     text-align: center;
     padding: 42px 0 41px;
     font-size: 24px;
 }
-.ui-button{
+
+.ui-button {
     display: none;
 }
-.ui-dialog .ui-dialog-content{
+
+.ui-dialog .ui-dialog-content {
     padding: 40px 92px 0;
     /*height: 503px;*/
 }
-.ui-dialog-content.ui-widget-content{
+
+.ui-dialog-content.ui-widget-content {
     height: 100%;
 }
-.dialog-form{
+
+.dialog-form {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.dialog-form label{
+
+.dialog-form label {
     font-size: 22px;
     text-align: center;
     width: 30%;
 }
-.dialog-form input{
+
+.dialog-form input {
     width: 68%;
     height: 60px;
     border: 1px solid #b7b7b7;
@@ -312,7 +363,8 @@ section .about_us{
     font-size: 22px;
     padding: 0 10px;
 }
-.dialog-form button{
+
+.dialog-form button {
     width: 93%;
     margin: 40px auto 0;
     padding: 22px 0 21px;
@@ -323,7 +375,8 @@ section .about_us{
     color: #000;
     font-weight: 600;
 }
-.dialog-form p{
+
+.dialog-form p {
     display: block;
     width: 100%;
     color: #363636;
@@ -331,7 +384,8 @@ section .about_us{
     margin: 31px auto 30px;
     text-align: center;
 }
-.dialog-form a{
+
+.dialog-form a {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
@@ -343,12 +397,14 @@ section .about_us{
     text-align: center;
     font-weight: 600;
 }
-.dialog-form a:before{
+
+.dialog-form a:before {
     content: "\f39e";
     font-weight: 400;
     font-family: "Font Awesome 5 Brands";
     margin-right: 16px;
 }
+
 /*.about_us a{
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
@@ -362,58 +418,68 @@ section .about_us{
 }*/
 
 /*...WORK...*/
-section.work{
+section.work {
     text-align: center;
     /*padding-top: 81px;*/
     margin-bottom: 162px;
 }
-h5{
+
+h5 {
     margin-bottom: 24px;
 }
-.work h3{
+
+.work h3 {
     margin-bottom: 82px;
 }
-.work img{
+
+.work img {
     display: block;
     width: 25%;
     padding: 1px;
 }
-.work .d-flex{
+
+.work .d-flex {
     flex-wrap: wrap;
     align-content: flex-start;
 
 }
 
 /*...PEOPLE...*/
-.people .container{
+.people .container {
     max-width: 760px;
     margin: 0 auto 162px;
     text-align: center;
     /*padding-top: 81px;*/
 
 }
-.people h5{
+
+.people h5 {
     margin-bottom: 24px;
 }
-.people p{
+
+.people p {
     margin-bottom: 47px;
     letter-spacing: 1px;
     line-height: 25px;
     font-size: 13px;
 }
-.people .photo{
+
+.people .photo {
     margin: 0 2.5px;
 }
-.people .photo img{
+
+.people .photo img {
     display: block;
     width: 100%;
 }
-.people .photo{
+
+.people .photo {
     background-color: #f9f9f9;
     text-align: start;
 
 }
-.people .photo p{
+
+.people .photo p {
     font-size: 13px;
     color: #021725;
     font-family: 'Open Sans', sans-serif;
@@ -421,47 +487,53 @@ h5{
     margin: 0 17px 48px;
 
 }
-.people .photo h4{
+
+.people .photo h4 {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 21px;
     color: #021725;
     margin: 0 17px 37px;
 }
-.people .photo h5{
+
+.people .photo h5 {
     margin: 20px 17px 21px;
 }
 
 /*...POST...*/
-.post .container{
+.post .container {
     max-width: 770px;
     margin: 0 auto 162px;
     /*padding-top: 81px;*/
     text-align: center;
 }
 
-.post .d-flex{
+.post .d-flex {
     margin-top: 52px;
     margin-bottom: 84px;
     text-align: start;
 
 }
-.post .d-flex img{
+
+.post .d-flex img {
     display: block;
     width: 100%;
 }
-.post .info{
+
+.post .info {
     background-color: #f9f9f9;
     padding: 44px 38px 0 39px;
 }
-.post .d-flex h6{
+
+.post .d-flex h6 {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     color: #505d68;
     margin-bottom: 21px;
 
 }
-.post .d-flex h4{
+
+.post .d-flex h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     color: #505d68;
@@ -469,7 +541,8 @@ h5{
     margin-bottom: 33px;
 
 }
-.post .d-flex p{
+
+.post .d-flex p {
     font-size: 16px;
     color: #505d68;
     font-family: 'Open Sans', sans-serif;
@@ -478,7 +551,8 @@ h5{
     letter-spacing: 1px;
     margin-bottom: 58px;
 }
-.post a{
+
+.post a {
     text-decoration: none;
     color: #021725;
     font-size: 14px;
@@ -488,51 +562,93 @@ h5{
     padding: 18px 48px 17px 47px;
 
 }
+/*....ABOUT-PAGE.....*/
+.about-services .info{
+    width: 50%;
+    padding: 47px 43px;
+    background-color: #f9f9f9;
+}
+.about-services img {
+    display: block;
+    width: 50%;
+}
 
-
+.about-services h3 {
+    font-size: 45px;
+    color: #505d68;
+    margin-bottom: 170px;
+}
+.about-services p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #505d68;
+    letter-spacing: 1px;
+    max-width: 220px;
+    width: 50%;
+    padding-left: 15px;
+}
+.about-services ul{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #505d68;
+    padding: 32px 0 0 73px;
+    line-height: 30px;
+}
+.about-services ul li{
+    list-style: none;
+}
 /*...CONTACT-US...*/
-.contact-us .container{
+.contact-us .container {
     max-width: 767px;
     margin: 0 auto 82px;
     text-align: center;
 }
-.map{
+
+.map {
     position: relative;
     max-width: 767px;
     height: 295px;
     margin: auto;
 
 }
-h3{
+
+h3 {
     color: #505d68;
     font-size: 44px;
     margin-bottom: 56px;
 }
-.contact-us h6{
+
+.contact-us h6 {
     margin-bottom: 49px;
 }
-.item.top p{
+
+.item.top p {
     margin-bottom: 98px;
 }
-.contact-us .d-flex{
+
+.contact-us .d-flex {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #f9f9f9;
     padding: 53px 15px 48px;
 }
-.contact-us .item{
+
+.contact-us .item {
     width: 50%;
     min-width: 220px;
     text-align: center;
 }
-.contact-us h6{
+
+.contact-us h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 13px;
-    color:#505d68;
+    color: #505d68;
 }
 
-.contact-us p{
+.contact-us p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 19px;
@@ -541,19 +657,22 @@ h3{
 
 
 /*....FOOTER....*/
-footer{
+footer {
     background-color: #eeeeee;
     padding: 41px 0 36px 0;
 }
-footer .container{
+
+footer .container {
     max-width: 746px;
     margin: auto;
 
 }
-footer .container.d-flex{
+
+footer .container.d-flex {
     justify-content: space-between;
 }
-footer p{
+
+footer p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -561,21 +680,22 @@ footer p{
     letter-spacing: normal;
 }
 
-.owl-carousel .owl-prev{
+.owl-carousel .owl-prev {
     position: absolute;
     left: -80px;
     top: 200px;
     color: #000;
     outline: none;
 }
-.owl-carousel .owl-prev:before{
+
+.owl-carousel .owl-prev:before {
     content: "\f053";
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     font-size: 43px;
 }
 
-.owl-carousel .owl-next{
+.owl-carousel .owl-next {
     position: absolute;
     right: -80px;
     top: 200px;
@@ -583,16 +703,19 @@ footer p{
     outline: none;
     transform: rotate(180deg);
 }
-.owl-carousel .owl-next:before{
+
+.owl-carousel .owl-next:before {
     content: "\f053";
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     font-size: 43px;
 }
-.owl-dots .owl-dot{
+
+.owl-dots .owl-dot {
     outline: none;
 }
-.owl-dots .owl-dot span{
+
+.owl-dots .owl-dot span {
     display: inline-block;
     background-color: #021725;
     width: 20px;
@@ -600,7 +723,8 @@ footer p{
     border-radius: 50%;
     margin: 5px;
 }
-.owl-dots .owl-dot.active span{
+
+.owl-dots .owl-dot.active span {
     background-color: #505d68;
 }
 
