@@ -64,7 +64,24 @@ section.header{
     background-position: center;
     margin-bottom: 82px;
 }
-
+section.header-about{
+    background-image: url('../images/about-header_01.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 165px;
+}
+.about-page{
+    max-width: 765px;
+    margin: 0 auto 160px;
+}
+.about-page p{
+    color: #021725;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: center;
+}
 header{
     position: absolute;
     width: 100%;
