@@ -4,7 +4,15 @@
         background-image: url('../../images/bg-mobyle_01.jpg');
         height: 100vh;
         background-size: cover;
-
+    }
+    .header-about{
+        background-image: url('../../images/about-header-mobile_01.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+    .about-page {
+        max-width: 670px;
+        margin: 0 30px 160px;
     }
 
     header {
@@ -83,6 +91,35 @@
         letter-spacing: 2px;
         margin-bottom: 222px;
     }
+    .about-services.d-flex{
+        flex-wrap: wrap;
+    }
+    .about-page{
+        max-width: 680px;
+        margin: 0 15px 160px;
+    }
+    .about-services h3{
+        margin-bottom: 47px;
+    }
+    .about-services img{
+        width: 100%;
+    }
+    .about-services .info{
+        width: 100%;
+    }
+    .about-services .info .d-flex{
+        flex-wrap: wrap;
+    }
+    .about-services .info p{
+        width: 100%;
+        margin-bottom: 47px;
+    }
+    .about-services .info ul{
+        width: 100%;
+        padding-left: 15px;
+        margin-bottom: 94px;
+    }
+
 
     /*...WORK...*/
     section.work {
@@ -107,7 +144,7 @@
 
     /*....PEOPLE...*/
     .people .container {
-        margin: 0 25px 222px;
+        margin: 0 80px 222px;
     }
 
     .people h5 {
@@ -237,17 +274,17 @@
     }
 
     /*....FOOTER....*/
-    footer {
+   /* footer {
         padding: 77px 15px 63px;
-    }
+    }*/
 
     footer .container {
         display: block;
     }
 
     footer p {
-        font-size: 30px;
-        line-height: 57px;
+        font-size: 18px;
+       /* line-height: 57px;*/
     }
 }
 
@@ -290,7 +327,7 @@
 
     /*....FOOTER....*/
     footer {
-        padding: 77px 15px 63px;
+        padding: 41px 15px 36px;
     }
 
     footer .container {
@@ -298,8 +335,8 @@
     }
 
     footer p {
-        font-size: 30px;
-        line-height: 57px;
+        font-size: 18px;
+        line-height: 36px;
     }
 }
 
