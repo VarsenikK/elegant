@@ -413,22 +413,7 @@ section p {
 section .about_us {
     background-color: #fff;
 }
-.header-about{
-    position: relative;
-}
-.header-about .arrow, .header-project .arrow{
-    width: 32px;
-    height: 32px;
-    left: 50%;
-    bottom: 55px;
-    position: absolute;
-}
 
-.header-about .arrow img, .header-project .arrow img{
-    display: block;
-    width: 100%;
-
-}
 .about_us .container {
     max-width: 760px;
     margin: 0 auto 162px;
@@ -455,7 +440,7 @@ section .about_us {
     padding: 22px 48px;
     letter-spacing: 2px;
 }
-
+/*...DIALOG...*/
 .ui-dialog {
     width: 755px !important;
     height: 603px !important;
@@ -791,6 +776,8 @@ footer p {
     letter-spacing: normal;
 }
 
+/*...carousel...*/
+
 .owl-carousel .owl-prev {
     position: absolute;
     left: -80px;
@@ -839,7 +826,7 @@ footer p {
     background-color: #505d68;
 }
 
-/*.....ABOUT.. ..*/
+/*.....PAGE ABOUT.. ..*/
 section.header-about {
     background-image: url('../images/about-header_01.jpg');
     height: 100vh;
@@ -849,12 +836,24 @@ section.header-about {
     position: relative;
     overflow: hidden;
 }
-
+.header-about{
+    position: relative;
+}
+.header-about .arrow, .header-project .arrow{
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    bottom: 55px;
+    position: absolute;
+}
+.header-about .arrow img, .header-project .arrow img{
+    display: block;
+    width: 100%;
+}
 .about-page {
     max-width: 765px;
     margin: 0 auto 160px;
 }
-
 .about-page p {
     color: #021725;
     font-size: 18px;
@@ -899,7 +898,7 @@ section.header-about {
 }
 
 
-/*.....PROJECT....*/
+/*.....PAGE PROJECT....*/
 section.header-project {
     background-image: url('../images/project-header_01.jpg');
     height: 100vh;
@@ -1043,7 +1042,7 @@ a.contact-page-link {
     text-align: center;
 }
 
-/*....BLOG....*/
+/*....PAGE BLOG....*/
 section.header-blog {
     background-image: url('../images/blog-header_01.jpg');
     height: 400px;
@@ -1139,4 +1138,70 @@ section.header-blog {
     display: inline-block;
     width: 100%;
     margin-bottom: 3px;
+}
+
+/*....PAGE WORK....*/
+section.header-work {
+    background-image: url('../images/header-work_01.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 82px;
+    position: relative; /*дописали*/
+    overflow: hidden; /*дописали*/
+}
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 0 15px;
+}
+.header-work .container {
+    max-width: 1186px;
+    margin: auto;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 16px;
+
+}
+.what-we-do .container {
+    max-width: 760px;
+    margin: 0 auto 162px;
+    /*padding-top: 81px;*/
+    text-align: center;
+}
+
+.what-we-do h5 {
+    margin-bottom: 24px;
+}
+
+.what-we-do p {
+    margin-bottom: 47px;
+}
+
+.what-we-do a {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #021725;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 22px 48px;
+    letter-spacing: 2px;
+}
+section.work-work {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.work-work img {
+    display: block;
+    width: 25%;
+    padding: 1px;
+}
+
+.work-work .d-flex {
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
